@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "a2asBVyEeLT7dZLoYPj6nl+yEcHkvHJwAlLT1wksneD10oSCQKotmAyxO9MlLhP6DLQ6BH3rc8GDKP43be0QDw==",
+  "success": true,
+  "projectFilePath": "D:\\src\\fluxOps-dotNet\\FluxOps.Infrastructure\\FluxOps.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\drewb\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\drewb\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
+    "C:\\Users\\drewb\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\drewb\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.1\\microsoft.extensions.logging.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\drewb\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

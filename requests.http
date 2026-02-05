@@ -1,0 +1,20 @@
+### Health check
+GET http://localhost:8080/health
+
+### Run pipeline with inline payload
+POST http://localhost:8080/pipeline/run
+Content-Type: application/json
+
+{
+  "sourceType": "Inline",
+  "payload": ["abc", "defgh"]
+}
+
+### Run pipeline with local file
+POST http://localhost:8080/pipeline/run
+Content-Type: application/json
+
+{
+  "sourceType": "LocalFile",
+  "pathOrUri": "D:/data/sample.txt"
+}

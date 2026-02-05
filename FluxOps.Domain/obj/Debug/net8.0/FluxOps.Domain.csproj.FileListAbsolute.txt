@@ -1,0 +1,11 @@
+D:\src\fluxOps-dotNet\FluxOps.Domain\obj\Debug\net8.0\FluxOps.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\src\fluxOps-dotNet\FluxOps.Domain\obj\Debug\net8.0\FluxOps.Domain.AssemblyInfoInputs.cache
+D:\src\fluxOps-dotNet\FluxOps.Domain\obj\Debug\net8.0\FluxOps.Domain.AssemblyInfo.cs
+D:\src\fluxOps-dotNet\FluxOps.Domain\obj\Debug\net8.0\FluxOps.Domain.csproj.CoreCompileInputs.cache
+D:\src\fluxOps-dotNet\FluxOps.Domain\bin\Debug\net8.0\FluxOps.Domain.deps.json
+D:\src\fluxOps-dotNet\FluxOps.Domain\bin\Debug\net8.0\FluxOps.Domain.dll
+D:\src\fluxOps-dotNet\FluxOps.Domain\bin\Debug\net8.0\FluxOps.Domain.pdb
+D:\src\fluxOps-dotNet\FluxOps.Domain\obj\Debug\net8.0\FluxOps.Domain.dll
+D:\src\fluxOps-dotNet\FluxOps.Domain\obj\Debug\net8.0\refint\FluxOps.Domain.dll
+D:\src\fluxOps-dotNet\FluxOps.Domain\obj\Debug\net8.0\FluxOps.Domain.pdb
+D:\src\fluxOps-dotNet\FluxOps.Domain\obj\Debug\net8.0\ref\FluxOps.Domain.dll

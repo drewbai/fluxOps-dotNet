@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxOps.Domain", "FluxOps.Domain\FluxOps.Domain.csproj", "{4E1C9BE8-7D93-4F32-90D0-320D1D6F6001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxOps.Application", "FluxOps.Application\FluxOps.Application.csproj", "{DCE67FD8-0A38-4B9E-A6D5-905C9876A531}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxOps.Infrastructure", "FluxOps.Infrastructure\FluxOps.Infrastructure.csproj", "{DC591BEA-B48E-4ED3-8AD1-8094EBD25FC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxOps.Api", "FluxOps.Api\FluxOps.Api.csproj", "{207087B4-C5BB-4BF0-B03D-65E8BD3C4EF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxOps.Tests", "FluxOps.Tests\FluxOps.Tests.csproj", "{A3C09D40-6286-4188-9E74-66582E8370A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E1C9BE8-7D93-4F32-90D0-320D1D6F6001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E1C9BE8-7D93-4F32-90D0-320D1D6F6001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E1C9BE8-7D93-4F32-90D0-320D1D6F6001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E1C9BE8-7D93-4F32-90D0-320D1D6F6001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCE67FD8-0A38-4B9E-A6D5-905C9876A531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCE67FD8-0A38-4B9E-A6D5-905C9876A531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCE67FD8-0A38-4B9E-A6D5-905C9876A531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCE67FD8-0A38-4B9E-A6D5-905C9876A531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC591BEA-B48E-4ED3-8AD1-8094EBD25FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC591BEA-B48E-4ED3-8AD1-8094EBD25FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC591BEA-B48E-4ED3-8AD1-8094EBD25FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC591BEA-B48E-4ED3-8AD1-8094EBD25FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{207087B4-C5BB-4BF0-B03D-65E8BD3C4EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207087B4-C5BB-4BF0-B03D-65E8BD3C4EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207087B4-C5BB-4BF0-B03D-65E8BD3C4EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207087B4-C5BB-4BF0-B03D-65E8BD3C4EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C09D40-6286-4188-9E74-66582E8370A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C09D40-6286-4188-9E74-66582E8370A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C09D40-6286-4188-9E74-66582E8370A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C09D40-6286-4188-9E74-66582E8370A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

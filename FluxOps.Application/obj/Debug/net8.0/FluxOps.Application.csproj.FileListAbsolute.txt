@@ -1,0 +1,15 @@
+D:\src\fluxOps-dotNet\FluxOps.Application\obj\Debug\net8.0\FluxOps.Application.csproj.AssemblyReference.cache
+D:\src\fluxOps-dotNet\FluxOps.Application\obj\Debug\net8.0\FluxOps.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\src\fluxOps-dotNet\FluxOps.Application\obj\Debug\net8.0\FluxOps.Application.AssemblyInfoInputs.cache
+D:\src\fluxOps-dotNet\FluxOps.Application\obj\Debug\net8.0\FluxOps.Application.AssemblyInfo.cs
+D:\src\fluxOps-dotNet\FluxOps.Application\obj\Debug\net8.0\FluxOps.Application.csproj.CoreCompileInputs.cache
+D:\src\fluxOps-dotNet\FluxOps.Application\bin\Debug\net8.0\FluxOps.Application.deps.json
+D:\src\fluxOps-dotNet\FluxOps.Application\bin\Debug\net8.0\FluxOps.Application.dll
+D:\src\fluxOps-dotNet\FluxOps.Application\bin\Debug\net8.0\FluxOps.Application.pdb
+D:\src\fluxOps-dotNet\FluxOps.Application\bin\Debug\net8.0\FluxOps.Domain.dll
+D:\src\fluxOps-dotNet\FluxOps.Application\bin\Debug\net8.0\FluxOps.Domain.pdb
+D:\src\fluxOps-dotNet\FluxOps.Application\obj\Debug\net8.0\FluxOps..FC3E9185.Up2Date
+D:\src\fluxOps-dotNet\FluxOps.Application\obj\Debug\net8.0\FluxOps.Application.dll
+D:\src\fluxOps-dotNet\FluxOps.Application\obj\Debug\net8.0\refint\FluxOps.Application.dll
+D:\src\fluxOps-dotNet\FluxOps.Application\obj\Debug\net8.0\FluxOps.Application.pdb
+D:\src\fluxOps-dotNet\FluxOps.Application\obj\Debug\net8.0\ref\FluxOps.Application.dll

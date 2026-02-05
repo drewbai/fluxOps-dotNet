@@ -1,0 +1,7 @@
+flowchart TD
+    Ingest["Data Ingestion\nInline &#124; LocalFile &#124; Cloud &#124; Event"] --> Pre["Preprocessing\nFeature Extraction"]
+    Pre --> Exec["Model Execution\nMockModelExecutor"]
+    Exec --> Eval["Evaluation\nMetrics"]
+    Eval --> Artifacts["Artifact Routing\nConsole / Storage"]
+    classDef stage fill:#eef,stroke:#333,stroke-width:1px,color:#111827;
+    class Ingest,Pre,Exec,Eval,Artifacts stage;

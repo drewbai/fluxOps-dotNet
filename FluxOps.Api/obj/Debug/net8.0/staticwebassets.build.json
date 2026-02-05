@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "w4wwToI53yzZg9A7z5d4EsOs5lORwN/ET6FIjU7AZ7g=",
+  "Source": "FluxOps.Api",
+  "BasePath": "_content/FluxOps.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

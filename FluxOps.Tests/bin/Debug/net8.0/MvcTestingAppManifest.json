@@ -1,0 +1,6 @@
+{
+  "FluxOps.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\src\\fluxOps-dotNet\\FluxOps.Api",
+  "FluxOps.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\src\\fluxOps-dotNet\\FluxOps.Application",
+  "FluxOps.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\src\\fluxOps-dotNet\\FluxOps.Domain",
+  "FluxOps.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\src\\fluxOps-dotNet\\FluxOps.Infrastructure"
+}

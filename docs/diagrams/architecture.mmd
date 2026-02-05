@@ -1,0 +1,18 @@
+flowchart LR
+    subgraph Domain
+        D[Core Types\nDataBatch, FeatureSet, ModelOutput, EvaluationResult]
+    end
+    subgraph Application
+        A[Interfaces\nIDataIngestion, IPreprocessor, IModelExecutor, IEvaluator, IArtifactRouter\nOrchestrator: IMLOpsPipeline]
+    end
+    subgraph Infrastructure
+        I[Implementations\nDefaultDataIngestion, SimplePreprocessor, MockModelExecutor, BasicEvaluator, ConsoleArtifactRouter\nDI: AddFluxOps]
+    end
+    subgraph Api
+        P[Minimal API\n/health, /pipeline/run]
+    end
+
+    P --> A
+    P --> I
+    I --> A
+    A --> D
