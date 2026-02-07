@@ -7,7 +7,7 @@ EXPOSE 8080
 ENV ASPNETCORE_URLS=http://+:8080
 
 # Build image
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:8.0.200 AS build
 WORKDIR /src
 # Copy project files for restore
 COPY FluxOps.Api/FluxOps.Api.csproj FluxOps.Api/
