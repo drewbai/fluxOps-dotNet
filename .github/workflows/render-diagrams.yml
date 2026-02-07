@@ -23,18 +23,26 @@ jobs:
       - name: Install Mermaid CLI
         run: npm install -g @mermaid-js/mermaid-cli
 
+      - name: Write Puppeteer config (no-sandbox)
+        run: |
+          cat > puppeteer-config.json << 'EOF'
+          {
+            "args": ["--no-sandbox", "--disable-setuid-sandbox"]
+          }
+          EOF
+
       - name: Create assets directory
         run: mkdir -p docs/assets
 
       - name: Render architecture (light/dark)
         run: |
-          mmdc -i docs/diagrams/architecture.mmd -o docs/assets/architecture-light.svg --theme default
-          mmdc -i docs/diagrams/architecture.mmd -o docs/assets/architecture-dark.svg --theme dark
+          mmdc -i docs/diagrams/architecture.mmd -o docs/assets/architecture-light.svg --theme default --puppeteerConfigFile puppeteer-config.json
+          mmdc -i docs/diagrams/architecture.mmd -o docs/assets/architecture-dark.svg --theme dark --puppeteerConfigFile puppeteer-config.json
 
       - name: Render pipeline (light/dark)
         run: |
-          mmdc -i docs/diagrams/pipeline.mmd -o docs/assets/pipeline-light.svg --theme default
-          mmdc -i docs/diagrams/pipeline.mmd -o docs/assets/pipeline-dark.svg --theme dark
+          mmdc -i docs/diagrams/pipeline.mmd -o docs/assets/pipeline-light.svg --theme default --puppeteerConfigFile puppeteer-config.json
+          mmdc -i docs/diagrams/pipeline.mmd -o docs/assets/pipeline-dark.svg --theme dark --puppeteerConfigFile puppeteer-config.json
 
       - name: Commit rendered diagrams
         uses: stefanzweifel/git-auto-commit-action@v5
