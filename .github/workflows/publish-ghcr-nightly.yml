@@ -1,9 +1,7 @@
 name: Publish Nightly GHCR Image
 
-on:
-  schedule:
-    - cron: '0 0 * * *' # every day at 00:00 UTC
-  workflow_dispatch:
+on:[]
+
 
 permissions:
   contents: read
